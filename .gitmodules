@@ -1,0 +1,3 @@
+[submodule "asciidoc_template"]
+	path = asciidoc_template
+	url = git@github.com:c6supper/asciidoc_template.git
