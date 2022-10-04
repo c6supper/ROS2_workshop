@@ -1,0 +1,27 @@
+# ROS2 WorkShop
+
+[[section-introduction-and-goals]]
+== Introduction and Goals
+
+A step-by-step guide for ROS2 workshop members.
+
+.Why choose ARMv8 as the host system?
+
+We are a group of software engineers coming from automotive industry, many of our SoCs are ARM-based.
+
+=== Prerequisites
+
+.Technology stack
+* Linux shell
+* Docker
+* ARMv8
+* IDE (Visual Studio Code is preferred)
+* qemu-user-static
+* binfmt
+* ROS2
+* C++/C/Python
+
+.Cross Compile Building Environment
+* Preferred OS , Ubuntu 20.04/Centos 8 amd64 version
+* https://docs.docker.com/engine/install/centos/[Install Docker Engine]
+* 
