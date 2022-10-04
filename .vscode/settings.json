@@ -1,0 +1,48 @@
+{
+    "spellchecker.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "asciidoc",
+        "puml"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        ".bundle": true,
+        "node_modules": true,
+        "build": false
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "cSpell.words": [
+        "adoc",
+        "amfm",
+        "asciidoctor"
+    ],
+    "asciidoc.preview.attributes": {
+        "ee_arch": "3.5",
+        "pdf-style": "${workspaceFolder}/asciidoc_template/utility/theme/chronicles-theme.yml",
+        "project-path": "${workspaceFolder}",
+        "asciidoc_template/utility-path": "${workspaceFolder}/asciidoc_template/utility",
+        "language": "ch"
+    },
+    "plantuml.jar": "asciidoc_template/utility/tool/plantuml.jar",
+    "plantuml.includepaths": [
+        "src/resource/json/en",
+        "src/resource/json/",
+        "src/resource/iuml",
+        "src/srs_doc/platform/resource/json/",
+    ],
+    "plantuml.jarArgs": [
+        "-DRELATIVE_INCLUDE=build/c4-template",
+        "-DENV_INCLUDE=src",
+        "-DEE_ARCH=3.5",
+        "-DTHEME_INCLUDE=asciidoc_template/utility/theme",
+        "-Dfile.encoding=UTF-8",
+        "-tpng",
+        "-Dlanguage=en",
+    ],
+    "plantuml.exportOutDir": "build/vs-plantuml/"
+}
