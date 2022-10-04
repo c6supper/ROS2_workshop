@@ -1,6 +1,47 @@
-= ROS2_workshop
-A step-by-step guide for ROS2 workshop
+// configure EN settings for asciidoc
+include::asciidoc_template/config.adoc[]
+// parameters for document
+include::asciidoc_template/env.adoc[]
 
-* Step 1: Install Docker Engine ([Installation]([https://](https://docs.docker.com/engine/install/centos/)))
-    
-* Step 2: Install Docker Engine ([Installation]([https://](https://docs.docker.com/engine/install/centos/)))
+//project specific parameters
+include::env.adoc[]
+
+= {doc-title}
+Author {doc-author}
+Built on {docdate}
+:toc-title: Table of Contents
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+
+//additional style for arc42 help callouts
+ifdef::backend-html5[]
+++++
+<style>
+.arc42help {font-size:small; width: 14px; height: 16px; overflow: hidden; position: absolute; right: 0px; padding: 2px 0px 3px 2px;}
+.arc42help::before {content: "?";}
+.arc42help:hover {width:auto; height: auto; z-index: 100; padding: 10px;}
+.arc42help:hover::before {content: "";}
+@media print {
+	.arc42help {display:hidden;}
+}
+</style>
+++++
+endif::backend-html5[]
+
+// Revision
+<<<
+include::src/00_revision.adoc[]
+<<<
+// horizontal line
+***
+
+// numbering from here on
+:numbered:
+
+<<<<
+// 1. Introduction and Goals
+include::src/01_introduction_and_goals.adoc[]

@@ -1,0 +1,16 @@
+:numbered!:
+[width="100%",cols="1,2,5,2",options="header"]
+.List of Technical Constraints
+.Revision History
+|===
+| Version
+| Date
+| Description
+| Name
+
+| 1.0
+| 2022/10/04
+| Initial version
+| Calvin Wang
+
+|===
