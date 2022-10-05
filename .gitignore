@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+output
+*.pdf
+*.html
+.bundle
+.vscode
+build
+*.lock

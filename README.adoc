@@ -1,10 +1,9 @@
 // configure EN settings for asciidoc
 include::asciidoc_template/config.adoc[]
-// parameters for document
-include::asciidoc_template/env.adoc[]
-
 //project specific parameters
 include::env.adoc[]
+// parameters for document
+include::asciidoc_template/env.adoc[]
 
 = {doc-title}
 Author {doc-author}
